@@ -1,6 +1,11 @@
 # Explicit base-image version, avoiding 'latest'
 FROM python:3.11-slim
 
+LABEL org.opencontainers.image.title="student-ml-api" \
+      org.opencontainers.image.description="MLOps  Phase  API" \
+      org.opencontainers.image.authors="Muhammad Ibrahim" \
+      org.opencontainers.image.source="https://github.com/ibrahimmm76/student-ml-api"
+
 # Set the working directory
 WORKDIR /app
 
