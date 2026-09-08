@@ -2,3 +2,4 @@ fastapi
 uvicorn
 pytest
 httpx
+fake-ml-package-does-not-exist==9.9.9
